@@ -104,8 +104,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 # [START staticurl]
-STATIC_URL = '/static/'
-# STATIC_URL = 'https://storage.googleapis.com/<your-bucket-id>/static/'
+# STATIC_URL = '/static/'
+STATIC_URL = 'https://storage.googleapis.com/audio-browser/static/'
 # [END staticurl]
 
 STATIC_ROOT = 'static/'
