@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '<your-database-name>',
-        'USER': '<your-database-user>',
-        'PASSWORD': '<your-database-password>',
-        'HOST': '<your-cloudsql-host>',
+        'NAME': 'audio_browser',
+        'USER': 'djangoapp',
+        'PASSWORD': 'Ihpimh.An1ii.',
+        'HOST': '146.148.46.11',
         'PORT': '3306',
     }
 }
